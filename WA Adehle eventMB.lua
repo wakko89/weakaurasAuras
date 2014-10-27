@@ -1,6 +1,6 @@
 -- eventMB Trigger
 function() 
-	WA_ADEHLE_EVENTMB_ = {}
+	WA_ADEHLE_EVENTMB_ = WA_ADEHLE_EVENTMB_ or {} -- Initialize table
 	local wa = WA_ADEHLE_EVENTMB_
     -- GLOBALS
     wa.SPELL = "Mind Blast" -- Spell to track CD of
